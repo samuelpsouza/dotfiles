@@ -166,3 +166,6 @@ _fzf_comprun() {
 }
 
 alias dotfiles=/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME
+
+JAVA_HOME=$HOME/.sdkman/candidates/java/current
+export JAVA_HOME
